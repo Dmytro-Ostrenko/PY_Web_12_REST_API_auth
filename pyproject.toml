@@ -19,6 +19,11 @@ email-validator = "^2.1.1"
 sqlalchemy = "2.0.29"
 alembic = "1.13.1"
 aiopg = "^1.4.0"
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+passlib = "^1.7.4"
+python-multipart = "^0.0.9"
+bcrypt = "^4.1.2"
+libgravatar = "^1.0.4"
 
 
 [build-system]
